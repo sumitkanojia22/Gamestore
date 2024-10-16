@@ -1,0 +1,132 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: VT323;
+    font-weight: 500;
+}
+
+body{
+    background-color: #E9ECEF;
+    display: flex;
+    justify-content: center;
+}
+
+.loginblock{
+    width: 750px;
+    height: 550px;
+    margin-top: 100px;
+    margin-bottom: 300px;
+    border: 1px,solid,#212529;
+    border-radius: 20px;
+    color: #212529;
+    background-color: #F8F9FA;
+}
+
+.loginbl2{
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+}
+
+.bnts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+ .loginbnt:hover{
+    background-color:#343A40;
+}
+
+.loginbnt:active{
+    background-color: #4e545b;
+}
+
+.signupbnt:hover{
+    background-color:#343A40;
+}
+
+.signupbnt:active{
+    background-color: #4e545b;
+}
+
+.signupbnt{
+    padding:12px;
+    border:none;
+    border-radius: 24px;
+    font-size: large;
+    letter-spacing: 2px;
+    color: #F8F9FA;
+    background-color: #212529;
+    margin-right: 20px;
+    cursor: pointer;
+    
+}
+
+.loginbnt{
+    padding:12px;
+    border:none;
+    border-radius: 24px;
+    font-size: large;
+    letter-spacing: 2px;
+    color: #F8F9FA;
+    background-color: #212529;
+    cursor: pointer;
+    
+}
+
+.h1text{
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    margin-bottom: 50px;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+}
+
+h1::after{
+    content: '';
+    position: absolute;
+    height: 2px;
+    left: 0;
+    bottom: 1px;
+    width: 0px;
+    background: #212529;
+    transition: width .2s;
+    
+}
+
+h1:hover::after{
+    width: 100%;
+}
+
+h3{
+    margin-bottom: 10px;
+}
+
+.usernameinput{
+    width: 400px;
+    height: 30px;
+    border-radius: 24px;
+    border: 0.5px,solid,#212529;
+    font-size: larger;
+    padding: 2px;
+    margin-bottom: 20px;
+}
+
+.passinput{
+    width: 400px;
+    height: 30px;
+    border-radius: 24px;
+    border: 0.5px,solid,#212529;
+    font-size: larger;
+    padding: 2px;
+    margin-bottom: 20px;
+}
+
+.forgetps{
+    color: #212529;
+}
